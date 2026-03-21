@@ -1,0 +1,13 @@
+# Coverage Decisions
+## Riesgos que se probarán primero
+1. [Riesgo 1]
+2. [Riesgo 2]
+3. [Riesgo 3]
+## ¿Por qué esos riesgos son prioridad?
+[Explica por qué se atenderían primero]
+## Qué se probará menos o quedará fuera por ahora
+- [Exclusión 1]
+- [Exclusión 2]
+- [Exclusión 3]
+## Justificación de exclusiones
+[Explica por qué esas exclusiones son razonables]
