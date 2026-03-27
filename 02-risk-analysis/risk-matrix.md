@@ -1,8 +1,8 @@
 # Risk Matrix
-| ID | Riesgo | Impacto | Probabilidad | Nivel | Justificación |
+| ID | Riesgo | Impacto | Probabilidad | Nivel | Mitigación(Pruebas) |
 |----|--------|---------|--------------|-------|---------------|
-| R1 | [Riesgo] | Alto | Alta | Crítico | [Por qué] |
-| R2 | [Riesgo] | Alto | Media | Alto | [Por qué] |
-| R3 | [Riesgo] | Medio | Alta | Alto | [Por qué] |
-| R4 | [Riesgo] | Medio | Media | Medio | [Por qué] |
-| R5 | [Riesgo] | Bajo | Media | Bajo | [Por qué] |
+| R1 | [El usuario podría ser cobrado, pero no recibir confirmación de compra.] | 3 | 5 | 15 | ruebas end-to-end del flujo de compra, validación de estados del pago, verificación de confirmaciones y notificaciones |
+| R2 | [El sistema podría permitir comprar productos sin stock disponible.] | 4 | 4 | 16 | Pruebas funcionales de inventario, escenarios concurrentes de compra, validación de actualización de stock |
+| R3 | [Información sensible podría enviarse sin cifrado.] | 2 | 5 | 10 |  Pruebas de seguridad, validación de uso de HTTPS, análisis de tráfico, revisión de configuraciones |
+| R4 | [Mensajes de error poco claros podrían generar abandono de compra.] | 4 | 3 | 12 | Pruebas de usabilidad, revisión de mensajes de error, pruebas exploratorias centradas en experiencia de usuario |
+| R5 | [Error en el cálculo del total del pedido] | 2 | 3 | 6 | Pruebas funcionales de precios, impuestos, descuentos y reglas de negocio |
